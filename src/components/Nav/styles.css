@@ -8,6 +8,7 @@
     text-decoration: none;
     color: #E6FAFC;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .nav-links:hover {
