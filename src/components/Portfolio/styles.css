@@ -1,0 +1,36 @@
+#portfolio {
+    background-color: #E6FAFC;
+    height: 70vh;
+}
+
+.project {
+    width: 30%;
+    height: 25vh;
+    position: relative;
+}
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project:hover img {
+    opacity: 0.2;
+}
+
+.project:hover > .project-link {
+    display: block;
+    opacity: 1;
+}
+
+.project-link {
+    position: absolute;
+    color: #05204A; 
+    left: 0;
+    top: 0;
+    text-decoration: none;
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
