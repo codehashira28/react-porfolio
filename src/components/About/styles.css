@@ -1,4 +1,10 @@
 #about-me {
     background-color: #E6FAFC;
     color: #05204A;
+    height: 60vh;
+}
+
+#photo {
+    width: 100px;
+    border-radius: 100%;
 }

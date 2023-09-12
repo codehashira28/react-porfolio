@@ -7,13 +7,13 @@ function Footer() {
     return (
         <div id="footer" className="d-flex justify-content-center align-items-center">
             <a href="https://github.com/codehashira28">
-                <img style={{width: '60px'}}src={github} />
+                <img className="logo" style={{width: '60px'}}src={github} />
             </a>
             <a href="https://www.linkedin.com/in/joshua-williams-8a5136101">
-                <img className="mt-1 mx-5" style={{height: '45px'}}src={linkedin} />
+                <img className="mt-1 mx-5 logo" style={{height: '45px'}}src={linkedin} />
             </a>
-            <a href="">
-                <img className="mx-2" style={{width: '40px'}}src={stack} />
+            <a href="https://stackoverflow.com/users/22545511/joshua-williams">
+                <img className="mx-2 logo" style={{width: '40px'}}src={stack} />
             </a>
         </div>
     )
