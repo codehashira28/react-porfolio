@@ -1,0 +1,20 @@
+#contact {
+    height: 60vh;
+    background-color: #E6FAFC;
+}
+
+input, textarea {
+    width: 40%;
+    border: transparent;
+}
+
+#submit {
+    background-color: #05204A;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+#submit:hover {
+    opacity: 0.8;
+}
