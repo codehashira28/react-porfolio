@@ -14,7 +14,3 @@
 .nav-links:hover {
     opacity: 0.5;
 }
-
-.nav-links:active {
-    color: #4F7CAC;
-}

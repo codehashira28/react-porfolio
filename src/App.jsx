@@ -4,17 +4,19 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
+import Footer from './components/Footer'
 
 
 function App() {
   const [currentPage, setPage] = useState('About');
   return (
     <>
-      <Nav setPage={ setPage }/>
+      <Nav currentPage={currentPage} setPage={ setPage }/>
       {currentPage === 'About' && <About />}
       {currentPage === 'Contact' && <Contact />}
       {currentPage === 'Portfolio' && <Portfolio />}
       {currentPage === 'Resume' && <Resume />}
+      <Footer />
     </>
   )
 }
