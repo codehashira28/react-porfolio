@@ -21,7 +21,11 @@
 
 .project:hover > .project-link {
     display: block;
-    opacity: 1;
+    opacity: 0.5;
+}
+
+.project-link:hover {
+    opacity: 1 !important;
 }
 
 .project-link {
