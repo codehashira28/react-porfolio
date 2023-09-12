@@ -1,0 +1,16 @@
+#resume {
+    height: 60vh;
+    background-color: #E6FAFC;
+}
+
+#resume-pdf {
+    text-decoration: none;
+}
+
+#resume-pdf:hover {
+    opacity: 0.8;
+}
+
+#resume-pdf:visited {
+    color: purple;
+}
