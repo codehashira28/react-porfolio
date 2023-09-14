@@ -15,26 +15,40 @@
     object-fit: cover;
 }
 
-.project:hover img {
+.project:hover .project-img {
     opacity: 0.2;
 }
 
-.project:hover > .project-link {
+.project:hover .project-link {
     display: block;
     opacity: 0.5;
 }
 
-.project-link:hover {
+.project:hover .github-link {
+    display: inline;
+    opacity: 0.5;
+}
+
+.project-link:hover, .github-link:hover {
     opacity: 1 !important;
 }
 
 .project-link {
     position: absolute;
     color: #05204A; 
-    left: 0;
-    top: 0;
+    left: 1rem;
+    top: 1rem;
     text-decoration: none;
     display: none;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.github-link {
+    width: 60px;
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    border-radius: 100%;
+    display: none;
 }

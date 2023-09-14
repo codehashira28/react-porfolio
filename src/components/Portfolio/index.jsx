@@ -5,6 +5,7 @@ import weatherdashboard from '../../assets/Weather-Dashboard.png'
 import techblog from '../../assets/Tech-Blog.png'
 import notetaker from '../../assets/Note-Taker.png'
 import jate from '../../assets/J-A-T-E.png'
+import github from '../../assets/github-logo.png'
 
 function Portfolio() {
     return (
@@ -14,26 +15,44 @@ function Portfolio() {
                 <div className="project">
                     <img className="project-img" src={granulargarden} />
                     <a className="project-link" href="https://frozen-tor-00446-d883d20dd32e.herokuapp.com/">Granular Garden</a>
+                    <a href="https://github.com/codehashira28/granular-garden">
+                        <img className="github-link" src={github} />
+                    </a>
                 </div>
                 <div className="project">
                     <img className="project-img" src={pokeinfogenerator} />
                     <a className="project-link" href="https://codehashira28.github.io/poke-info-generator/">Poke Info Generator</a>
+                    <a href="https://github.com/codehashira28/poke-info-generator">
+                        <img className="github-link" src={github} />
+                    </a>
                 </div>
                 <div className="project">
                     <img className="project-img" src={weatherdashboard} />
                     <a className="project-link" href="https://codehashira28.github.io/weather-dashboard/">Weather Dashboard</a>
+                    <a href="https://github.com/codehashira28/weather-dashboard">
+                        <img className="github-link" src={github} />
+                    </a>
                 </div>
                 <div className="project">
                     <img className="project-img" src={techblog} />
                     <a className="project-link" href="https://tech-blog-app-20230806-f48fb5f8b41d.herokuapp.com/">Tech Blog</a>
+                    <a href="https://github.com/codehashira28/tech-blog-app">
+                        <img className="github-link" src={github} />
+                    </a>
                 </div>
                 <div className="project">
                     <img className="project-img" src={notetaker} />
                     <a className="project-link" href="https://pacific-river-80544-d245515ec8bd.herokuapp.com/">Note Taker</a>
+                    <a href="https://github.com/codehashira28/note-taker">
+                        <img className="github-link" src={github} />
+                    </a>
                 </div>
                 <div className="project">
                     <img className="project-img" src={jate} />
                     <a className="project-link" href="https://morning-refuge-10692-76df8b5397e0.herokuapp.com/">Text Editor</a>
+                    <a href="https://github.com/codehashira28/pwa-text-editor">
+                        <img className="github-link" src={github} />
+                    </a>
                 </div>
             </div>
         </div>

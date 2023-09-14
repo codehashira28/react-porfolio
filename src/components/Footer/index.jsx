@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div id="footer" className="d-flex justify-content-center align-items-center">
             <a href="https://github.com/codehashira28">
-                <img className="logo" style={{width: '60px'}}src={github} />
+                <img className="logo github-footer" style={{width: '60px'}}src={github} />
             </a>
             <a href="https://www.linkedin.com/in/joshua-williams-8a5136101">
                 <img className="mt-1 mx-5 logo" style={{height: '45px'}}src={linkedin} />

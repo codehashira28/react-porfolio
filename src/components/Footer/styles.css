@@ -2,6 +2,10 @@
     opacity: 0.6;
 }
 
+.github-footer {
+    border-radius: 100%;
+}
+
 .logo:hover {
     opacity: 1;
 }
